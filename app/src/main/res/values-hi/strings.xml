@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Photo Slideshow</string>
+
+    <string name="title_home">Photo Slideshow</string>
+    <string name="title_sources">फ़ोटो स्रोत</string>
+    <string name="title_settings">सेटिंग्स</string>
+    <string name="action_back">वापस</string>
+    <string name="action_remove">हटाएं</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_select_all">सभी चुनें</string>
+    <plurals name="selection_count">
+        <item quantity="one">%1$d चयनित</item>
+        <item quantity="other">%1$d चयनित</item>
+    </plurals>
+    <plurals name="dialog_remove_sources_title">
+        <item quantity="one">%1$d आइटम हटाएं?</item>
+        <item quantity="other">%1$d आइटम हटाएं?</item>
+    </plurals>
+    <string name="dialog_remove_sources_body">ये अब आपके स्लाइडशो में दिखाई नहीं देंगे। आप इन्हें कभी भी दोबारा जोड़ सकते हैं।</string>
+
+    <string name="home_hero_tagline">अपनी फ़ोटो को एक एम्बिएंट स्लाइडशो में बदलें</string>
+    <string name="home_empty_title">शुरू करने के लिए कुछ फ़ोटो जोड़ें</string>
+    <string name="home_empty_body">फ़ोटो या पूरा फ़ोल्डर चुनें — इस डिवाइस से या किसी क्लाउड प्रदाता से — और Photo Slideshow उन्हें स्लाइडशो में बदल देगा।</string>
+    <string name="action_start_slideshow">स्लाइडशो शुरू करें</string>
+    <string name="action_manage_sources">फ़ोटो प्रबंधित करें</string>
+    <plurals name="home_source_count">
+        <item quantity="one">%1$d स्रोत जोड़ा गया</item>
+        <item quantity="other">%1$d स्रोत जोड़े गए</item>
+    </plurals>
+
+    <string name="action_connect_google_photos">Google फ़ोटो कनेक्ट करें</string>
+    <string name="source_google_drive">Google Drive (जल्द आ रहा है)</string>
+    <string name="source_onedrive">OneDrive (जल्द आ रहा है)</string>
+    <string name="source_dropbox">Dropbox (जल्द आ रहा है)</string>
+    <string name="google_photos_step_requesting_authorization">एक्सेस का अनुरोध किया जा रहा है…</string>
+    <string name="google_photos_step_creating_session">Google फ़ोटो खोला जा रहा है…</string>
+    <string name="action_open_in_browser">ब्राउज़र में खोलें</string>
+    <string name="google_photos_step_waiting_status">आपके पूरा करने का इंतज़ार है…</string>
+    <string name="google_photos_picker_title">अपनी फ़ोटो चुनें</string>
+    <string name="google_photos_picker_body_phone">Google फ़ोटो से फ़ोटो चुनने के लिए अपने ब्राउज़र में जारी रखें।</string>
+    <string name="google_photos_scan_hint">या इसके बजाय किसी अन्य डिवाइस से यह कोड स्कैन करके जारी रखें</string>
+    <string name="label_or">या</string>
+    <plurals name="google_photos_ready_to_import">
+        <item quantity="one">%1$d फ़ोटो चुनी गई</item>
+        <item quantity="other">%1$d फ़ोटो चुनी गईं</item>
+    </plurals>
+    <string name="action_import">आयात करें</string>
+    <string name="google_photos_step_importing">फ़ोटो डाउनलोड की जा रही हैं…</string>
+    <plurals name="google_photos_imported">
+        <item quantity="one">Google फ़ोटो से %1$d फ़ोटो जोड़ी गई</item>
+        <item quantity="other">Google फ़ोटो से %1$d फ़ोटो जोड़ी गईं</item>
+    </plurals>
+    <string name="action_done">पूर्ण</string>
+    <string name="action_try_again">पुनः प्रयास करें</string>
+
+    <string name="section_folders">फ़ोल्डर और एल्बम</string>
+    <string name="section_photos">व्यक्तिगत फ़ोटो</string>
+    <string name="sources_empty_title">अभी तक कोई फ़ोटो नहीं</string>
+    <string name="sources_empty_body">अपना स्लाइडशो बनाने के लिए अलग-अलग फ़ोटो या पूरा फ़ोल्डर जोड़ें।</string>
+    <string name="action_add_photos">फ़ोटो जोड़ें</string>
+    <string name="action_add_folder">फ़ोल्डर जोड़ें</string>
+
+    <string name="section_appearance">दिखावट</string>
+    <string name="setting_dynamic_color">डायनेमिक कलर (Material You)</string>
+    <string name="setting_dynamic_color_subtitle">वॉलपेपर के रंगों के साथ सिंक करें</string>
+    <string name="setting_color_theme">रंग थीम</string>
+    <string name="setting_theme">थीम</string>
+
+    <string name="section_slideshow">स्लाइडशो</string>
+    <string name="setting_interval">फ़ोटो अवधि</string>
+    <string name="setting_shuffle">शफ़ल</string>
+    <string name="setting_captions">फ़ाइल नाम दिखाएं</string>
+    <string name="setting_transition">ट्रांज़िशन</string>
+    <string name="setting_dim_level">डिम ओवरले</string>
+    <string name="setting_show_clock">घड़ी दिखाएं</string>
+    <string name="setting_show_clock_subtitle">स्लाइडशो पर तारीख़ और समय ओवरले करें</string>
+    <string name="setting_show_date">तारीख़ दिखाएं</string>
+    <string name="setting_show_time">समय दिखाएं</string>
+    <string name="setting_clock_position">स्थिति</string>
+
+    <string name="section_sound">ध्वनि</string>
+    <string name="setting_background_music">बैकग्राउंड म्यूज़िक</string>
+    <string name="setting_background_music_subtitle">स्लाइडशो के दौरान एक बंडल किया गया ट्रैक लूप करें</string>
+    <string name="setting_sound_source">साउंड स्रोत</string>
+    <string name="setting_track">ट्रैक</string>
+    <string name="setting_audio_file">ऑडियो फ़ाइल</string>
+    <string name="setting_audio_file_none">अपने डिवाइस से एक फ़ाइल चुनें</string>
+    <string name="sound_source_bundled">ऐप ट्रैक</string>
+    <string name="sound_source_custom_file">आपका डिवाइस</string>
+
+    <string name="section_automatic_trigger">ऑटोमैटिक ट्रिगर</string>
+    <string name="setting_screen_saver">स्क्रीन सेवर</string>
+    <string name="setting_screen_saver_subtitle">Photo Slideshow को अपने स्क्रीन सेवर के रूप में सक्षम करें, फिर तय करें कि यह चार्जिंग के दौरान, डॉक में, या दोनों स्थितियों में शुरू हो</string>
+
+    <string name="section_general">सामान्य</string>
+    <string name="setting_language">भाषा</string>
+    <string name="language_system_default">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="theme_mode_light">लाइट</string>
+    <string name="theme_mode_dark">डार्क</string>
+    <string name="theme_mode_system">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="color_theme_default">ऐप डिफ़ॉल्ट</string>
+    <string name="color_theme_ocean">महासागर</string>
+    <string name="color_theme_forest">वन</string>
+    <string name="color_theme_sunset">सूर्यास्त</string>
+    <string name="color_theme_grape">अंगूर</string>
+    <string name="color_theme_rose">गुलाबी</string>
+    <string name="color_theme_slate">स्लेट</string>
+    <string name="color_theme_gold">सुनहरा</string>
+    <string name="color_theme_teal">फ़िरोज़ी</string>
+    <string name="color_theme_plum">बेर</string>
+    <string name="color_theme_moss">काई</string>
+    <string name="color_theme_coral">मूंगा</string>
+    <string name="color_theme_indigo">नील</string>
+    <string name="color_theme_mustard">सरसों</string>
+    <string name="color_theme_crimson">गहरा लाल</string>
+    <string name="color_theme_mint">पुदीना</string>
+    <string name="color_theme_periwinkle">पेरिविंकल</string>
+
+    <string name="setting_theme_contrast">कंट्रास्ट</string>
+    <string name="contrast_standard">मानक</string>
+    <string name="contrast_medium">मध्यम</string>
+    <string name="contrast_high">उच्च</string>
+    <string name="setting_pure_dark">शुद्ध काला</string>
+    <string name="setting_pure_dark_subtitle">डार्क थीम में पूरी तरह काला बैकग्राउंड</string>
+    <string name="setting_absolute_dark">पूर्ण काला</string>
+    <string name="setting_absolute_dark_subtitle">डार्क थीम में हर सतह को काला कर दें</string>
+
+    <string name="interval_5s">5 सेकंड</string>
+    <string name="interval_10s">10 सेकंड</string>
+    <string name="interval_30s">30 सेकंड</string>
+    <string name="interval_1m">1 मिनट</string>
+
+    <string name="transition_crossfade">क्रॉसफ़ेड</string>
+    <string name="transition_ken_burns">केन बर्न्स (धीमा ज़ूम)</string>
+
+    <string name="dim_level_off">बंद</string>
+    <string name="dim_level_low">कम</string>
+    <string name="dim_level_medium">मध्यम</string>
+    <string name="dim_level_high">अधिक</string>
+
+    <string name="position_top_left">ऊपर बाएं</string>
+    <string name="position_top_center">ऊपर</string>
+    <string name="position_top_right">ऊपर दाएं</string>
+    <string name="position_center_left">मध्य बाएं</string>
+    <string name="position_center">मध्य</string>
+    <string name="position_center_right">मध्य दाएं</string>
+    <string name="position_bottom_left">नीचे बाएं</string>
+    <string name="position_bottom_center">नीचे</string>
+    <string name="position_bottom_right">नीचे दाएं</string>
+
+    <string name="section_about">ऐप के बारे में</string>
+    <string name="about_version">संस्करण %1$s</string>
+    <string name="privacy_statement_body">Photo Slideshow कुछ भी एकत्र नहीं करता और इसका अपना कोई बैकएंड नहीं है। इसमें कोई एनालिटिक्स नहीं है, और आपके द्वारा चुनी गई फ़ोटो को वहीं से लोड करने के अलावा कोई नेटवर्क कॉल नहीं होती जहां आपने उन्हें सहेजा है — इसके अलावा, केवल तभी जब आप Google फ़ोटो कनेक्ट करना चुनते हैं, आपके द्वारा चुनी गई विशिष्ट वस्तुओं के लिए Google के अपने साइन-इन और फ़ोटो-पिकिंग API को सीधी कॉल की जाती हैं।</string>
+    <string name="section_privacy_policy">गोपनीयता नीति</string>
+    <string name="section_open_source_licenses">ओपन-सोर्स लाइसेंस</string>
+    <string name="settings_row_licenses_subtitle">थर्ड-पार्टी सॉफ़्टवेयर नोटिस</string>
+    <string name="section_licenses_intro_title">अनुपालन और श्रेय</string>
+    <string name="section_licenses_intro_body">Photo Slideshow को विश्व स्तरीय ओपन-सोर्स सॉफ़्टवेयर का उपयोग करके बनाया गया है। नीचे उन लाइब्रेरी की सूची दी गई है जो इस ऐप को संभव बनाती हैं।</string>
+    <string name="license_badge_apache">Apache 2.0</string>
+    <string name="library_version_license_format">%1$s • %2$s</string>
+    <string name="licenses_footer_format">%1$s © %2$d. सभी ट्रेडमार्क अपने-अपने मालिकों की संपत्ति हैं।</string>
+    <string name="lib_desc_compose">नेटिव Android के लिए UI टूलकिट</string>
+    <string name="lib_desc_coil">असिंक्रोनस इमेज लोडिंग और कैशिंग</string>
+    <string name="lib_desc_core_ktx">Android कोर API के लिए Kotlin एक्सटेंशन</string>
+
+    <string name="slideshow_empty">अपना स्लाइडशो शुरू करने के लिए सेटिंग्स में कुछ फ़ोटो जोड़ें।</string>
+</resources>
