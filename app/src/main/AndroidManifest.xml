@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Photo selection goes through the system Photo Picker and the Storage Access Framework,
+         both of which grant scoped, persistable access without a runtime permission prompt — no
+         storage permission needed. -->
+
+    <!-- Google Photos integration: OAuth sign-in and the Photos Picker API both require network
+         access — the app's only networking use. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhotoSlideshow"
+        android:usesCleartextTraffic="false">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.PhotoSlideshow.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Manual-trigger full-screen slideshow, launched from the in-app "Start Slideshow"
+             action. Not exported: only ever started from within this app's own task. -->
+        <activity
+            android:name=".ui.slideshow.SlideshowActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PhotoSlideshow.Slideshow"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <!-- Automatic-trigger path: Android's native screen saver ("Daydream") system. The user
+             opts in once from system Settings > Display > Screen saver (deep-linked from our
+             Settings screen), where they also choose the charging/docked/either start condition
+             — this app never needs to poll charging state itself. -->
+        <service
+            android:name=".dream.PhotoSlideshowService"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DREAM_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.dream"
+                android:resource="@xml/photo_slideshow_info" />
+        </service>
+    </application>
+
+</manifest>

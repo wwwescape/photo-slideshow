@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Photo Slideshow</string>
+
+    <string name="title_home">Photo Slideshow</string>
+    <string name="title_sources">Photo Sources</string>
+    <string name="title_settings">Settings</string>
+    <string name="action_back">Back</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_select_all">Select All</string>
+    <plurals name="selection_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="dialog_remove_sources_title">
+        <item quantity="one">Remove %1$d item?</item>
+        <item quantity="other">Remove %1$d items?</item>
+    </plurals>
+    <string name="dialog_remove_sources_body">They\'ll no longer appear in your slideshow. You can always add them again.</string>
+
+    <string name="home_hero_tagline">Turn your photos into an ambient slideshow</string>
+    <string name="home_empty_title">Add some photos to get started</string>
+    <string name="home_empty_body">Choose photos or a whole folder — from this device or a cloud provider — and Photo Slideshow will turn them into a slideshow.</string>
+    <string name="action_start_slideshow">Start Slideshow</string>
+    <string name="action_manage_sources">Manage Photos</string>
+    <plurals name="home_source_count">
+        <item quantity="one">%1$d source added</item>
+        <item quantity="other">%1$d sources added</item>
+    </plurals>
+
+    <string name="action_connect_google_photos">Connect Google Photos</string>
+    <string name="source_google_drive">Google Drive (coming soon)</string>
+    <string name="source_onedrive">OneDrive (coming soon)</string>
+    <string name="source_dropbox">Dropbox (coming soon)</string>
+    <string name="google_photos_step_requesting_authorization">Requesting access…</string>
+    <string name="google_photos_step_creating_session">Opening Google Photos…</string>
+    <string name="action_open_in_browser">Open in Browser</string>
+    <string name="google_photos_step_waiting_status">Waiting for you to finish…</string>
+    <string name="google_photos_picker_title">Choose your photos</string>
+    <string name="google_photos_picker_body_phone">Continue in your browser to select photos from Google Photos.</string>
+    <string name="google_photos_scan_hint">Or scan this code with another device to continue there instead</string>
+    <string name="label_or">or</string>
+    <plurals name="google_photos_ready_to_import">
+        <item quantity="one">%1$d photo selected</item>
+        <item quantity="other">%1$d photos selected</item>
+    </plurals>
+    <string name="action_import">Import</string>
+    <string name="google_photos_step_importing">Downloading photos…</string>
+    <plurals name="google_photos_imported">
+        <item quantity="one">Added %1$d photo from Google Photos</item>
+        <item quantity="other">Added %1$d photos from Google Photos</item>
+    </plurals>
+    <string name="action_done">Done</string>
+    <string name="action_try_again">Try Again</string>
+
+    <string name="section_folders">Folders &amp; Albums</string>
+    <string name="section_photos">Individual Photos</string>
+    <string name="sources_empty_title">No photos yet</string>
+    <string name="sources_empty_body">Add individual photos or a whole folder to build your slideshow.</string>
+    <string name="action_add_photos">Add Photos</string>
+    <string name="action_add_folder">Add Folder</string>
+
+    <string name="section_appearance">Appearance</string>
+    <string name="setting_dynamic_color">Dynamic Color (Material You)</string>
+    <string name="setting_dynamic_color_subtitle">Sync with wallpaper colors</string>
+    <string name="setting_color_theme">Color Theme</string>
+    <string name="setting_theme">Theme</string>
+
+    <string name="section_slideshow">Slideshow</string>
+    <string name="setting_interval">Photo Duration</string>
+    <string name="setting_shuffle">Shuffle</string>
+    <string name="setting_captions">Show File Name</string>
+    <string name="setting_transition">Transition</string>
+    <string name="setting_dim_level">Dim Overlay</string>
+    <string name="setting_show_clock">Show Clock</string>
+    <string name="setting_show_clock_subtitle">Overlay the date and time on the slideshow</string>
+    <string name="setting_show_date">Show Date</string>
+    <string name="setting_show_time">Show Time</string>
+    <string name="setting_clock_position">Position</string>
+
+    <string name="section_sound">Sound</string>
+    <string name="setting_background_music">Background Music</string>
+    <string name="setting_background_music_subtitle">Loop a bundled track behind the slideshow</string>
+    <string name="setting_sound_source">Sound Source</string>
+    <string name="setting_track">Track</string>
+    <string name="setting_audio_file">Audio File</string>
+    <string name="setting_audio_file_none">Choose a file from your device</string>
+    <string name="sound_source_bundled">App Track</string>
+    <string name="sound_source_custom_file">Your Device</string>
+
+    <string name="section_automatic_trigger">Automatic Trigger</string>
+    <string name="setting_screen_saver">Screen Saver</string>
+    <string name="setting_screen_saver_subtitle">Enable Photo Slideshow as your screen saver, then choose to start it while charging, docked, or both</string>
+
+    <string name="section_general">General</string>
+    <string name="setting_language">Language</string>
+    <string name="language_system_default">System Default</string>
+
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_mode_dark">Dark</string>
+    <string name="theme_mode_system">System Default</string>
+
+    <string name="color_theme_default">App Default</string>
+    <string name="color_theme_ocean">Ocean</string>
+    <string name="color_theme_forest">Forest</string>
+    <string name="color_theme_sunset">Sunset</string>
+    <string name="color_theme_grape">Grape</string>
+    <string name="color_theme_rose">Rose</string>
+    <string name="color_theme_slate">Slate</string>
+    <string name="color_theme_gold">Gold</string>
+    <string name="color_theme_teal">Teal</string>
+    <string name="color_theme_plum">Plum</string>
+    <string name="color_theme_moss">Moss</string>
+    <string name="color_theme_coral">Coral</string>
+    <string name="color_theme_indigo">Indigo</string>
+    <string name="color_theme_mustard">Mustard</string>
+    <string name="color_theme_crimson">Crimson</string>
+    <string name="color_theme_mint">Mint</string>
+    <string name="color_theme_periwinkle">Periwinkle</string>
+
+    <string name="setting_theme_contrast">Contrast</string>
+    <string name="contrast_standard">Standard</string>
+    <string name="contrast_medium">Medium</string>
+    <string name="contrast_high">High</string>
+    <string name="setting_pure_dark">Pure Black</string>
+    <string name="setting_pure_dark_subtitle">True black background in dark theme</string>
+    <string name="setting_absolute_dark">Absolute Black</string>
+    <string name="setting_absolute_dark_subtitle">Flatten every surface to black in dark theme</string>
+
+    <string name="interval_5s">5 seconds</string>
+    <string name="interval_10s">10 seconds</string>
+    <string name="interval_30s">30 seconds</string>
+    <string name="interval_1m">1 minute</string>
+
+    <string name="transition_crossfade">Crossfade</string>
+    <string name="transition_ken_burns">Ken Burns (slow zoom)</string>
+
+    <string name="dim_level_off">Off</string>
+    <string name="dim_level_low">Low</string>
+    <string name="dim_level_medium">Medium</string>
+    <string name="dim_level_high">High</string>
+
+    <string name="position_top_left">Top Left</string>
+    <string name="position_top_center">Top</string>
+    <string name="position_top_right">Top Right</string>
+    <string name="position_center_left">Center Left</string>
+    <string name="position_center">Center</string>
+    <string name="position_center_right">Center Right</string>
+    <string name="position_bottom_left">Bottom Left</string>
+    <string name="position_bottom_center">Bottom</string>
+    <string name="position_bottom_right">Bottom Right</string>
+
+    <string name="section_about">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="privacy_statement_body">Photo Slideshow collects nothing and has no backend of its own. There\'s no analytics, and no network calls beyond loading the photos you\'ve chosen from wherever you stored them — plus, only if you choose to connect Google Photos, direct calls to Google\'s own sign-in and photo-picking APIs for the specific items you select.</string>
+    <string name="section_privacy_policy">Privacy Policy</string>
+    <string name="section_open_source_licenses">Open-source licenses</string>
+    <string name="settings_row_licenses_subtitle">Third-party software notices</string>
+    <string name="section_licenses_intro_title">Compliance &amp; Credits</string>
+    <string name="section_licenses_intro_body">Photo Slideshow is built using world-class open-source software. Below is a list of the libraries that make this app possible.</string>
+    <string name="license_badge_apache">Apache 2.0</string>
+    <string name="library_version_license_format">%1$s • %2$s</string>
+    <string name="licenses_footer_format">%1$s © %2$d. All trademarks are the property of their respective owners.</string>
+    <string name="lib_desc_compose">UI toolkit for native Android</string>
+    <string name="lib_desc_coil">Async image loading and caching</string>
+    <string name="lib_desc_core_ktx">Kotlin extensions for Android core APIs</string>
+
+    <string name="slideshow_empty">Add some photos in Settings to start your slideshow.</string>
+</resources>

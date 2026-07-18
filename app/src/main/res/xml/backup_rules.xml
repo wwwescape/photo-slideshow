@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto Backup on Android 11 and lower (see data_extraction_rules.xml for 12+). Only the user's
+     preferences are backed up. Photo sources hold content:// grants that don't survive a restore,
+     Google Photos sign-in state belongs to this device's Play services, and downloaded Google
+     Photos copies are personal media that shouldn't be re-uploaded to a backup. -->
+<full-backup-content>
+    <include domain="file" path="datastore/settings.preferences_pb" />
+    <include domain="sharedpref" path="theme_prefs_sync.xml" />
+</full-backup-content>
