@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Photo Slideshow</string>
+
+    <string name="title_home">Photo Slideshow</string>
+    <string name="title_sources">Fuentes de fotos</string>
+    <string name="title_settings">Ajustes</string>
+    <string name="action_back">Atrás</string>
+    <string name="action_remove">Quitar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_select_all">Seleccionar todo</string>
+    <plurals name="selection_count">
+        <item quantity="one">%1$d seleccionado</item>
+        <item quantity="other">%1$d seleccionados</item>
+    </plurals>
+    <plurals name="dialog_remove_sources_title">
+        <item quantity="one">¿Quitar %1$d elemento?</item>
+        <item quantity="other">¿Quitar %1$d elementos?</item>
+    </plurals>
+    <string name="dialog_remove_sources_body">Dejarán de aparecer en tu presentación. Siempre puedes volver a añadirlos.</string>
+
+    <string name="home_hero_tagline">Convierte tus fotos en una presentación ambiental</string>
+    <string name="home_empty_title">Añade algunas fotos para empezar</string>
+    <string name="home_empty_body">Elige fotos o una carpeta completa — desde este dispositivo o un proveedor en la nube — y Photo Slideshow las convertirá en una presentación.</string>
+    <string name="action_start_slideshow">Iniciar presentación</string>
+    <string name="action_manage_sources">Administrar fotos</string>
+    <plurals name="home_source_count">
+        <item quantity="one">%1$d fuente añadida</item>
+        <item quantity="other">%1$d fuentes añadidas</item>
+    </plurals>
+
+    <string name="action_connect_google_photos">Conectar Google Fotos</string>
+    <string name="source_google_drive">Google Drive (próximamente)</string>
+    <string name="source_onedrive">OneDrive (próximamente)</string>
+    <string name="source_dropbox">Dropbox (próximamente)</string>
+    <string name="google_photos_step_requesting_authorization">Solicitando acceso…</string>
+    <string name="google_photos_step_creating_session">Abriendo Google Fotos…</string>
+    <string name="action_open_in_browser">Abrir en el navegador</string>
+    <string name="google_photos_step_waiting_status">Esperando a que termines…</string>
+    <string name="google_photos_picker_title">Elige tus fotos</string>
+    <string name="google_photos_picker_body_phone">Continúa en tu navegador para seleccionar fotos de Google Fotos.</string>
+    <string name="google_photos_scan_hint">O escanea este código con otro dispositivo para continuar allí</string>
+    <string name="label_or">o</string>
+    <plurals name="google_photos_ready_to_import">
+        <item quantity="one">%1$d foto seleccionada</item>
+        <item quantity="other">%1$d fotos seleccionadas</item>
+    </plurals>
+    <string name="action_import">Importar</string>
+    <string name="google_photos_step_importing">Descargando fotos…</string>
+    <plurals name="google_photos_imported">
+        <item quantity="one">Se añadió %1$d foto de Google Fotos</item>
+        <item quantity="other">Se añadieron %1$d fotos de Google Fotos</item>
+    </plurals>
+    <string name="action_done">Listo</string>
+    <string name="action_try_again">Intentar de nuevo</string>
+
+    <string name="section_folders">Carpetas y álbumes</string>
+    <string name="section_photos">Fotos individuales</string>
+    <string name="sources_empty_title">Aún no hay fotos</string>
+    <string name="sources_empty_body">Añade fotos individuales o una carpeta completa para crear tu presentación.</string>
+    <string name="action_add_photos">Añadir fotos</string>
+    <string name="action_add_folder">Añadir carpeta</string>
+
+    <string name="section_appearance">Apariencia</string>
+    <string name="setting_dynamic_color">Color dinámico (Material You)</string>
+    <string name="setting_dynamic_color_subtitle">Sincronizar con los colores del fondo de pantalla</string>
+    <string name="setting_color_theme">Tema de color</string>
+    <string name="setting_theme">Tema</string>
+
+    <string name="section_slideshow">Presentación</string>
+    <string name="setting_interval">Duración de la foto</string>
+    <string name="setting_shuffle">Aleatorio</string>
+    <string name="setting_captions">Mostrar nombre del archivo</string>
+    <string name="setting_transition">Transición</string>
+    <string name="setting_dim_level">Superposición de atenuación</string>
+    <string name="setting_show_clock">Mostrar reloj</string>
+    <string name="setting_show_clock_subtitle">Superponer la fecha y hora en la presentación</string>
+    <string name="setting_show_date">Mostrar fecha</string>
+    <string name="setting_show_time">Mostrar hora</string>
+    <string name="setting_clock_position">Posición</string>
+
+    <string name="section_sound">Sonido</string>
+    <string name="setting_background_music">Música de fondo</string>
+    <string name="setting_background_music_subtitle">Repetir una pista incluida durante la presentación</string>
+    <string name="setting_sound_source">Fuente de sonido</string>
+    <string name="setting_track">Pista</string>
+    <string name="setting_audio_file">Archivo de audio</string>
+    <string name="setting_audio_file_none">Elige un archivo de tu dispositivo</string>
+    <string name="sound_source_bundled">Pista de la app</string>
+    <string name="sound_source_custom_file">Tu dispositivo</string>
+
+    <string name="section_automatic_trigger">Activación automática</string>
+    <string name="setting_screen_saver">Protector de pantalla</string>
+    <string name="setting_screen_saver_subtitle">Habilita Photo Slideshow como tu protector de pantalla y elige si se inicia mientras se carga, está en la base, o ambos</string>
+
+    <string name="section_general">General</string>
+    <string name="setting_language">Idioma</string>
+    <string name="language_system_default">Predeterminado del sistema</string>
+
+    <string name="theme_mode_light">Claro</string>
+    <string name="theme_mode_dark">Oscuro</string>
+    <string name="theme_mode_system">Predeterminado del sistema</string>
+
+    <string name="color_theme_default">Predeterminado de la app</string>
+    <string name="color_theme_ocean">Océano</string>
+    <string name="color_theme_forest">Bosque</string>
+    <string name="color_theme_sunset">Atardecer</string>
+    <string name="color_theme_grape">Uva</string>
+    <string name="color_theme_rose">Rosa</string>
+    <string name="color_theme_slate">Pizarra</string>
+    <string name="color_theme_gold">Oro</string>
+    <string name="color_theme_teal">Verde azulado</string>
+    <string name="color_theme_plum">Ciruela</string>
+    <string name="color_theme_moss">Musgo</string>
+    <string name="color_theme_coral">Coral</string>
+    <string name="color_theme_indigo">Índigo</string>
+    <string name="color_theme_mustard">Mostaza</string>
+    <string name="color_theme_crimson">Carmesí</string>
+    <string name="color_theme_mint">Menta</string>
+    <string name="color_theme_periwinkle">Vinca</string>
+
+    <string name="setting_theme_contrast">Contraste</string>
+    <string name="contrast_standard">Estándar</string>
+    <string name="contrast_medium">Medio</string>
+    <string name="contrast_high">Alto</string>
+    <string name="setting_pure_dark">Negro Puro</string>
+    <string name="setting_pure_dark_subtitle">Fondo negro puro en el tema oscuro</string>
+    <string name="setting_absolute_dark">Negro Absoluto</string>
+    <string name="setting_absolute_dark_subtitle">Aplana todas las superficies a negro en el tema oscuro</string>
+
+    <string name="interval_5s">5 segundos</string>
+    <string name="interval_10s">10 segundos</string>
+    <string name="interval_30s">30 segundos</string>
+    <string name="interval_1m">1 minuto</string>
+
+    <string name="transition_crossfade">Fundido cruzado</string>
+    <string name="transition_ken_burns">Ken Burns (zoom lento)</string>
+
+    <string name="dim_level_off">Desactivado</string>
+    <string name="dim_level_low">Bajo</string>
+    <string name="dim_level_medium">Medio</string>
+    <string name="dim_level_high">Alto</string>
+
+    <string name="position_top_left">Arriba a la izquierda</string>
+    <string name="position_top_center">Arriba</string>
+    <string name="position_top_right">Arriba a la derecha</string>
+    <string name="position_center_left">Centro izquierda</string>
+    <string name="position_center">Centro</string>
+    <string name="position_center_right">Centro derecha</string>
+    <string name="position_bottom_left">Abajo a la izquierda</string>
+    <string name="position_bottom_center">Abajo</string>
+    <string name="position_bottom_right">Abajo a la derecha</string>
+
+    <string name="section_about">Acerca de</string>
+    <string name="about_version">Versión %1$s</string>
+    <string name="privacy_statement_body">Photo Slideshow no recopila nada y no tiene un backend propio. No hay análisis, y no se realiza ninguna llamada de red más allá de cargar las fotos que elegiste desde donde las guardaste — además, solo si decides conectar Google Fotos, llamadas directas a las propias API de inicio de sesión y selección de fotos de Google para los elementos específicos que selecciones.</string>
+    <string name="section_privacy_policy">Política de privacidad</string>
+    <string name="section_open_source_licenses">Licencias de código abierto</string>
+    <string name="settings_row_licenses_subtitle">Avisos de software de terceros</string>
+    <string name="section_licenses_intro_title">Cumplimiento y créditos</string>
+    <string name="section_licenses_intro_body">Photo Slideshow está desarrollado con software de código abierto de primer nivel. A continuación, una lista de las bibliotecas que hacen posible esta app.</string>
+    <string name="license_badge_apache">Apache 2.0</string>
+    <string name="library_version_license_format">%1$s • %2$s</string>
+    <string name="licenses_footer_format">%1$s © %2$d. Todas las marcas registradas son propiedad de sus respectivos dueños.</string>
+    <string name="lib_desc_compose">Kit de herramientas de UI para Android nativo</string>
+    <string name="lib_desc_coil">Carga y almacenamiento en caché de imágenes asíncrono</string>
+    <string name="lib_desc_core_ktx">Extensiones de Kotlin para las API principales de Android</string>
+
+    <string name="slideshow_empty">Añade algunas fotos en Ajustes para iniciar tu presentación.</string>
+</resources>
